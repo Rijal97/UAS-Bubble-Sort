@@ -8,5 +8,5 @@ def Bubble_sort(rijal): #Ini adalah definisi fungsi Bubble_sort, yang menerima s
 
 data_list = [57, 23, 76, 45, 89, 12, 68, 34, 90, 21, 84, 27, 61, 39, 95, 44, 73, 17, 52, 30, 11, 82, 25, 64, 49, 37, 96, 20, 88, 56, 13, 77, 92, 43, 65, 19, 54, 38, 85, 72, 9, 47, 78, 31, 63, 24, 99, 50, 66, 70] #Ini adalah daftar data_list yang berisi 50 angka acak yang akan diurutkan.
 print(f"data sebelum diurutkan", data_list) #Baris ini mencetak daftar angka sebelum diurutkan.
-urutkan_data = Bubble_sort(data_list) #Memanggil fungsi Bubble_sort dengan data_list sebagai argumen dan menyimpan hasil yang sudah diurutkan dalam sorting_data.
+urutkan_data = Bubble_sort(data_list) #Memanggil fungsi Bubble_sort dengan data_list sebagai argumen dan menyimpan hasil yang sudah diurutkan dalam urutkan_data.
 print(f"data sesudah diurutkan", urutkan_data) #Baris ini mencetak daftar angka setelah diurutkan.
